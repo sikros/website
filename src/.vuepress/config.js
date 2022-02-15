@@ -1,18 +1,18 @@
 const { config } = require("./theme/index.js");
+
 module.exports = config({
-  title: "Kim",
+  title: "StarNet",
   base: "/",
-  dest: "./dist",
-  editLinks: false,
+  dest: "./dist",  
+  editLinks:false,
 
   head: [
     ["script", { src: "https://cdn.bootcdn.net/ajax/libs/react/17.0.1/umd/react.production.min.js" }],
-    ["script", { src: "https://cdn.bootcdn.net/ajax/libs/react-dom/17.0.1/umd/react-dom.production.min.js" }],
+    ["script", { src: "https://cdn.bootcdn.net/ajax/libs/react-dom/17.0.1/umd/react-dom.production.min.js"}],
     ["script", { src: "https://cdn.bootcdn.net/ajax/libs/vue/2.6.12/vue.min.js" }],
     ["script", { src: "https://cdn.bootcdn.net/ajax/libs/axios/0.21.0/axios.min.js" }],
     ["script", { src: "https://cdn.bootcdn.net/ajax/libs/babel-standalone/6.7.7/babel.min.js" }],
-    ["link", { rel: "stylesheet", href: "https://cdn.bootcdn.net/ajax/libs/element-ui/2.14.1/theme-chalk/index.min.css" }],
-
+    ["link", { rel: "stylesheet" , href: "https://cdn.bootcdn.net/ajax/libs/element-ui/2.14.1/theme-chalk/index.min.css" }],
   ],
 
   plugins: [
@@ -45,33 +45,29 @@ module.exports = config({
         }
       }]
   ],
-
   themeConfig: {
-    baseLang: "zh-CN",
+    baseLang: "en-US",
     logo: "/logo.svg",
-    author: "Kim",
+    author: "StarNet",
     hostname: "https://blog.xcjkwl.com/",
-    sitemap: {
-      hostname: "https://blog.xcjkwl.com/"
-    },
     nav: [
-      { text: "主页", link: "/", icon: "home" },
-      { text: "项目", link: "/home/", icon: "projectfeed" },
-      { text: "快捷指令", link: "/shortcuts/", icon: "layers" },
-      { text: "购物站", link: "http://www.xcjkwl.com/", icon: "shop" },
+        { text: "Home", link: "/", icon: "home" },
+        { text: "Project", link: "/home/", icon: "home" },
+        { text: "Shortcuts", link: "/shortcuts/", icon: "layers" },
+        { text: "Shop", link: "http://www.xcjkwl.com/", icon: "shop"},
     ],
 
     locales: {
-      "/en/": {
+      "/zh/": {        
         nav: [
-          { text: "Home", link: "/en/", icon: "home" },
-          { text: "Project", link: "/en/home/", icon: "home" },
-          { text: "Shortcuts", link: "/en/shortcuts/", icon: "layers" },
-          { text: "Shop", link: "http://www.xcjkwl.com/", icon: "shop" },
+          { text: "主页", link: "/", icon: "home" },
+          { text: "项目", link: "/home/", icon: "projectfeed" },
+          { text: "快捷指令", link: "/shortcuts/", icon: "layers" },
+          { text: "购物站", link: "http://www.xcjkwl.com/", icon: "shop"},
         ],
       },
     },
-    pageInfo: ['Author', 'Category', 'Tag', 'ReadTime'],
+    pageInfo:['Author', 'Category', 'Tag', 'ReadTime'],
     blog: {
       intro: "https://kim.xcjkwl.com/",
       sidebarDisplay: "mobile",
@@ -89,11 +85,11 @@ module.exports = config({
 
     footer: {
       display: true,
-      links: [
-        { text: "关于我们", link: "/aboutus/" }, { text: "海外镜像", link: "https://web.xcjkwl.com/" },
+      links:[
+        { text: "About us", link: "/aboutus/" },{ text: "中国站", link: "https://blog.xcjkwl.com/"},
       ],
       content: "<a href='http://beian.miit.gov.cn/' target='_blank'>津ICP备2022001047号-1</a>",
-      copyright: "Copyright <a href='https://kim.xcjkwl.com' target='_blank'>©Kim</a> by <a href='/license/' target='_blank'>MIT Licensed</a>"
+      copyright:"Copyright <a href='https://kim.xcjkwl.com' target='_blank'>©StarNet</a> by <a href='/license/' target='_blank'>MIT Licensed</a>"
     },
 
     mdEnhance: {
@@ -114,7 +110,7 @@ module.exports = config({
 
     pwa: {
       favicon: "/favicon.ico",
-      showInstall: false,
+      showInstall:false,
       cachePic: true,
       apple: {
         icon: "/assets/icon/apple-icon-152.png",
@@ -148,7 +144,7 @@ module.exports = config({
             sizes: "192x192",
             type: "image/png",
           },
-        ]
+        ],
       },
     },
 
