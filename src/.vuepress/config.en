@@ -49,12 +49,12 @@ module.exports = config({
     baseLang: "en-US",
     logo: "/logo.svg",
     author: "StarNet",
-    hostname: "https://www.starchina.top/",
+    hostname: "https://blog.xcjkwl.com/",
     nav: [
         { text: "Home", link: "/", icon: "home" },
         { text: "Project", link: "/home/", icon: "home" },
         { text: "Shortcuts", link: "/shortcuts/", icon: "layers" },
-        { text: "Shop", link: "http://shop.starchina.top/", icon: "shop"},
+        { text: "Shop", link: "http://www.xcjkwl.com/", icon: "shop"},
     ],
 
     locales: {
@@ -63,13 +63,13 @@ module.exports = config({
           { text: "主页", link: "/", icon: "home" },
           { text: "项目", link: "/home/", icon: "projectfeed" },
           { text: "快捷指令", link: "/shortcuts/", icon: "layers" },
-          { text: "购物站", link: "http://shop.starchina.top/", icon: "shop"},
+          { text: "购物站", link: "http://www.xcjkwl.com/", icon: "shop"},
         ],
       },
     },
     pageInfo:['Author', 'Category', 'Tag', 'ReadTime'],
     blog: {
-      intro: "https://blog.starchina.top/",
+      intro: "https://kim.xcjkwl.com/",
       sidebarDisplay: "mobile",
     },
 
@@ -86,10 +86,10 @@ module.exports = config({
     footer: {
       display: true,
       links:[
-        { text: "About us", link: "/aboutus/" },{ text: "中国主站", link: "https://www.starchina.top/"},
+        { text: "About us", link: "/aboutus/" },{ text: "中国站", link: "https://blog.xcjkwl.com/"},
       ],
-      content: "<a href='http://beian.miit.gov.cn/' target='_blank'>津ICP备19012047号-1</a>",
-      copyright:"Copyright <a href='https://miniapp.aliwork.com/auth?BACK_URL=%2Fvisit.html%3FcorpId%3Ddinge10bc56ab551e1c335c2f4657eb6378f%26appCode%3DPLUS_EQBSH810LK21BJ0HE87I%26token%3D83becd12e4d3e81f6ef8b2cd3104157d&authCorpId=dinge10bc56ab551e1c335c2f4657eb6378f' target='_blank'>©StarNet</a> by <a href='/license/' target='_blank'>MIT Licensed</a>"
+      content: "<a href='http://beian.miit.gov.cn/' target='_blank'>津ICP备2022001047号-1</a>",
+      copyright:"Copyright <a href='https://kim.xcjkwl.com' target='_blank'>©StarNet</a> by <a href='/license/' target='_blank'>MIT Licensed</a>"
     },
 
     mdEnhance: {

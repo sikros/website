@@ -59,7 +59,7 @@ tag:
 3. 在哪找到快捷指令的链接 
 
 :::center
-![捷径沙盒](https://blog.starchina.top/images/jjsh.jpg)
+![捷径沙盒](https://kim.xcjkwl.com/images/jjsh.jpg)
 :::
 
 除了本站的 [快捷指令专题页](/shortcuts/) 你还可以扫描上方的小程序码进入 **捷径沙盒** 小程序，查找更多的快捷指令链接。

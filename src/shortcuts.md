@@ -2,7 +2,7 @@
 shortcuts: true
 icon: home
 title: 快捷指令
-heroImage: https://blog.starchina.top/images/jjsh.jpg
+heroImage: https://kim.xcjkwl.com/images/jjsh.jpg
 heroText: 快捷指令
 tagline: 本页面只展示部分快捷指令，更多指令请扫码进入小程序查看。
 article: false
@@ -18,6 +18,6 @@ action:
 
 ## 更多快捷指令请进入小程序查看
 
-[![捷径沙盒](https://blog.starchina.top/images/jjsh.jpg)](weixin://dl/business/?t=HmDrzjgz5Uj)
+[![捷径沙盒](https://kim.xcjkwl.com/images/jjsh.jpg)](weixin://dl/business/?t=HmDrzjgz5Uj)
 
 ::: 

@@ -2,7 +2,7 @@
 shortcuts: true
 icon: home
 title: Shortcuts
-heroImage: https://blog.starchina.top/images/jjsh.jpg
+heroImage: https://kim.xcjkwl.com/images/jjsh.jpg
 heroText: Shortcuts
 tagline: More shortcuts in wechat mini program
 article: false
@@ -18,5 +18,5 @@ action:
 
 ## More shortcuts in wechat mini program
 
-![qrcode](https://blog.starchina.top/images/jjsh.jpg)
+![qrcode](https://kim.xcjkwl.com/images/jjsh.jpg)
 

@@ -11,7 +11,7 @@ project:
   - type: link
     name: Shopping
     desc: Shopping discount information
-    link: http://shop.starchina.top/
+    link: http://www.xcjkwl.com/
 
   - type: article
     name: Resource

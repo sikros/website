@@ -2,7 +2,7 @@
 blog: true
 home: true
 icon: home
-title: 星晨网络
+title: Kim
 hero: true
 heroImage: /logo.svg
 heroText: 科技族
@@ -11,7 +11,7 @@ project:
   - type: link
     name: 购物优惠
     desc: 各大购物网站内购领券
-    link: http://shop.starchina.top/
+    link: http://www.xcjkwl.com/
 
   - type: article
     name: 资源下载
